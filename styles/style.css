@@ -1,0 +1,195 @@
+
+/* BODY */
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Press Start 2P', monospace; 
+
+    font-size: 10px;
+    line-height: 1.8;
+
+    background-image: url('../assets/Images/image_bg.png');
+    background-size: cover;       /* Stretches the image to cover the whole */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from tiling */
+    background-attachment: fixed; /* Keeps the background in place when scrolling */
+
+    color: #333;
+}
+
+
+/* NAVIGATION BAR */
+nav {
+    background-color: #3c839b;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f1c40f;
+}
+
+/* MAIN CONTENT WRAPPER */
+main {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+/* SECTION, ARTICLE AND ASIDE */
+section,
+article,
+aside {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* HEADINGS */
+h1,
+h2,
+h3 {
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+/* IMAGES */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 3px solid #3498db;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+/* VIDEO AND AUDIO */
+/* Video styling */
+video {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 2px solid #3498db;
+}
+
+/* Audio styling (letting the browser handle its native height) */
+audio {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+/* LIST */
+ul,
+ol {
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #3c839b;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer h2 {
+    color: white;
+}
+
+footer a {
+    color: #f1c40f;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* CONTACT */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-sizing: border-box; /* Ensures padding doesn't overflow */
+}
+
+input[type="submit"] {
+    background-color: #1d269e;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #b95e29;
+}
+
+
+main {
+    width: 90%; 
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex; 
+    gap: 20px; 
+}
+
+main > section {
+    flex: 2; 
+    margin-bottom: 0; 
+}
+
+.right-column {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+}

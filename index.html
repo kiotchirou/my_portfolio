@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+
+        <!-- NAVIGATION -->
+        <nav>
+            <a href="#Home">Home</a>
+            <a href="links/media.html">Media</a>
+            <a href="#projects">Project</a>
+            <a href="#contacts"> Contact</a>
+        </nav>
+
+        <!-- MAIN -->
+        <main class="main-layout">
+
+            <!-- SECTION -->
+            <section id="home">   
+
+                <h2> About Me!</h2>
+
+                <!-- INTRODUCTION -->
+                <p>Hello I am <strong>Luigi Domingo Cotillon</strong>. 
+                <p>Im a <b>Student</b> at <b>Datamex College of Adeline</b> and Currently a <b>3rd Year BSIT</b></p>
+                
+                <!-- IMAGES OF MYSELF -->
+                <img src="assets/Images/image1.png" alt="" width="200">
+                
+                <h3>Video Introduction</h3>
+
+                <audio controls>
+                    <source src="assets/Audios/Audio1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+
+            </section>
+            
+            <!-- RIGHT COLUMN WRAPPER -->
+            <div class="right-column">
+
+                <!-- ARTICLE (Professional Experience / Projects) -->
+                <article id="projects">
+                    <h2>Professional Experience & Projects</h2>
+                    <p>I have hands-on experience working in the gaming and developer community:</p>
+                    
+                    <ul>
+                        <li><b>Graphic Developer / Admin</b> at Graal Online</li>
+                        <li>Creating custom graphical assets and managing server content</li>
+                        <li>Designing web layouts and interactive portfolio pieces</li>
+                    </ul>
+                </article>
+
+                <!-- ASIDE (Hobbies & Interests) -->
+                <aside>
+                    <h3>Hobbies & Favorites</h3>
+                    <p>When I'm not coding or designing, here is what I love doing:</p>
+                    
+                    <!-- Unordered list for general hobbies -->
+                    <ul>
+                        <li>Creating digital and traditional art</li>
+                        <li>Exploring game development and design</li>
+                    </ul>
+
+                    <!-- Ordered list for ranked favorites -->
+                    <p>My Top Gaming Genres:</p>
+                    <ol>
+                        <li>Role-Playing Games (RPGs)</li>
+                        <li>Action & Strategy</li>
+                        <li>Creative Sandbox Games</li>
+                    </ol>
+                </aside>
+
+            </div>
+
+        </main>
+
+
+        <!-- FOOTER -->
+        <footer id="contacts">
+
+            <h2>Contact Me</h2>
+            <form action="">
+                <label for="fullname">Name:</label><br>
+                <input type="text" name="" id="fullname"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" name="" id="email"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea name="" id="message" rows="4" cols="30" required></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+            
+            <p>Email:
+                <a href="yashirochirou@gmail.com">yashirochirou@gmail.com</a>
+            </p>
+        </footer>
+
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
